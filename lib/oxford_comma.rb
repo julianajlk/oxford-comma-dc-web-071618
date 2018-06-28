@@ -5,6 +5,6 @@ def oxford_comma(array)
     return array.join(' and ')
   else array.length > 3
     last_fruit = array.pop
-    return array.join(', ') + " and " + array[-1]
+    return array.join(', ') + " and " + array[-2]
   end
 end
